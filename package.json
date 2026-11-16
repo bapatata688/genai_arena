@@ -1,0 +1,30 @@
+{
+  "name": "genai-leader-arena",
+  "version": "1.0.0",
+  "description": "Plataforma 100% estática para el dominio de la certificación Google Cloud Certified - Generative AI Leader",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node harness/cli.js validate-all && oxlint && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "lint:topics": "node harness/cli.js lint-topics",
+    "lint:questions": "node harness/cli.js validate-questions",
+    "test:harness": "node harness/cli.js validate-all"
+  },
+  "dependencies": {
+    "lucide-react": "^1.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.0.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "oxlint": "^1.0.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^8.0.0"
+  }
+}

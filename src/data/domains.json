@@ -1,0 +1,52 @@
+[
+  {
+    "id": "domain-1",
+    "code": "D1",
+    "title": "Fundamentals of Generative AI",
+    "weight": 0.30,
+    "weightPercentage": "~30%",
+    "description": "Conceptos fundamentales de Inteligencia Artificial, Aprendizaje Automático, Deep Learning y Modelos Fundacionales. Ciclo de vida de ML/GenAI, arquitectura en 4 capas de Google Cloud, tipología de datos, espacios latentes, embeddings y criterios de selección de modelos.",
+    "moduleIds": [
+      "mod-01-fundamentos-ia-genai",
+      "mod-02-ciclo-vida-arquitectura-4-capas",
+      "mod-03-datos-embeddings-seleccion-modelos"
+    ]
+  },
+  {
+    "id": "domain-2",
+    "code": "D2",
+    "title": "Google Cloud's Gen AI Offerings",
+    "weight": 0.35,
+    "weightPercentage": "~35%",
+    "description": "Portafolio de infraestructura y soluciones de IA de Google Cloud: TPUs v4/v5e/v5p, GPUs H100 y AI Hypercomputer; soluciones preconstruidas de productividad empresarial como Gemini for Google Workspace, NotebookLM y Gemini Advanced; plataformas de desarrollo Vertex AI, Model Garden, Vertex AI Search & Conversation y agentes autónomos.",
+    "moduleIds": [
+      "mod-04-infraestructura-tpu-gpu-hypercomputer",
+      "mod-05-productividad-workspace-notebooklm",
+      "mod-06-plataformas-vertex-search-agentes"
+    ]
+  },
+  {
+    "id": "domain-3",
+    "code": "D3",
+    "title": "Techniques to Improve Gen AI Model Output",
+    "weight": 0.20,
+    "weightPercentage": "~20%",
+    "description": "Técnicas avanzadas para maximizar la calidad y fidelidad de los modelos sin modificar pesos (Zero/Few-Shot, CoT, System Instructions, calibración de Temperatura y Top-P/K) y estrategias de personalización arquitectónica: Grounding con Google Search, RAG administrado con Vertex AI Search y Fine-Tuning supervisado (PEFT/LoRA) con evaluación rigurosa.",
+    "moduleIds": [
+      "mod-07-prompt-engineering-parametros-control",
+      "mod-08-grounding-rag-fine-tuning"
+    ]
+  },
+  {
+    "id": "domain-4",
+    "code": "D4",
+    "title": "Business Strategies for a Successful Gen AI Solution",
+    "weight": 0.15,
+    "weightPercentage": "~15%",
+    "description": "Estrategia de transformación empresarial con IA: identificación y priorización de casos de uso (Crear, Resumir, Descubrir, Automatizar), cálculo riguroso de ROI y TCO; gobernanza, los 7 Principios de IA Responsable de Google, arquitectura de seguridad SAIF, residencia y aislamiento de datos (Zero Data Retention) y doble indemnización de propiedad intelectual.",
+    "moduleIds": [
+      "mod-09-estrategia-casos-uso-roi",
+      "mod-10-gobernanza-saif-ia-responsable-ip"
+    ]
+  }
+]
